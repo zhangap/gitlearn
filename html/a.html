@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>页面标题</title>
+    <title>new window</title>
     <meta charset="utf-8">
     <script type="text/javascript">
         window.onload = function(){
-            document.getElementById("btn1").onclick = function(){
-                window.open("a.html")
+            document.getElementById("btn2").onclick = function(){
+                window.close();
             };
-        }
+        };
+
     </script>
 </head>
 
 <body>
 <!--所有布局都放在admin-main内部-->
 <div>
-    <input type="button" value="打开窗口" id="btn1">
+    <input type="button" value="关闭窗口" id="btn2">
 </div>
 
 </body>
